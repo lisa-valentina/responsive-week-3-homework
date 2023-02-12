@@ -47,6 +47,7 @@ p {
   box-shadow: var(--box-shadow);
   padding: 20px 15px;
   text-transform: capitalize;
+  width: 200px;
 }
 
 .launch:hover {
@@ -98,8 +99,35 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 577px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .launch {
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+  }
+  .info-text {
+    text-align: justify;
+  }
+  .introduction {
+    font-size: 15px;
+    margin: 15px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
 }
